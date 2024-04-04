@@ -1,0 +1,172 @@
+@font-face {
+  font-family: stardewCaps;
+  src: url(../fontes/Stardew\ Valley\ ALL\ CAPS.ttf);
+}
+
+@font-face {
+  font-family: stardewFont;
+  src: url(../fontes/stardew-item-font.ttf);
+}
+
+.titulo {
+  width: 13rem;
+  text-align: center;
+  padding: 20px 0;
+  padding-bottom: 10px;
+}
+
+.img1 {
+  width: 600px;
+  height: auto;
+  margin: 2rem;
+}
+
+.img2 {
+  width: 600px;
+  height: auto;
+  margin: 2rem;
+}
+
+h2 {
+  text-align: center;
+  font-family: stardewFont;
+  font-size: 1.9rem;
+  text-align: center;
+  color: #f7b327;
+  margin: 28px 0;
+}
+
+p {
+  font-family: stardewFont;
+  font-size: 1.9rem;
+  color: #ffe249;
+  padding: 10px 0;
+}
+
+.areaSuperior {
+  margin-top: 50px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  grid-gap: 10px;
+}
+
+.dv2 {
+  background-color: #0e79d6ef;
+  padding: 12px;
+  margin: auto;
+}
+
+body{
+  background-image: url(../imagens/wallpaper.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  width: fit-content;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+header{
+  display: grid;
+  justify-content: center;
+  background-color: #0e79d6ef;
+}
+
+@media(min-width:376px) and (max-width: 480px){
+
+  .titulo {
+    text-align: center;
+    padding: 20px 0;
+    padding-bottom: 10px;
+  }
+
+  .img1 {
+    width: 425px;
+    height: auto;
+    margin: 2rem;
+  }
+
+  .img2 {
+    width: 425px;
+    height: auto;
+    margin: 2rem;
+  }
+
+  .areaSuperior {
+    margin-top: 18px;
+    display: grid;
+    grid-template-columns: auto;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 20px;
+  }
+
+  .txt{
+    text-align: justify;
+    font-family: stardewFont;
+    font-size: 1.9rem;
+    text-align: center;
+    color: #f7b327;
+    margin: 28px 0;
+  }
+
+  
+  .dv2{
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+  }
+}
+
+@media(max-width: 375px){
+
+  .titulo {
+    text-align: center;
+    padding: 20px 0;
+    padding-bottom: 10px;
+  }
+
+  .img1 {
+    width: 320px;
+    height: auto;
+    margin: 2rem;
+  }
+
+  .img2 {
+    width: 320px;
+    height: auto;
+    margin: 2rem;
+  }
+
+  .areaSuperior {
+    margin-top: 18px;
+    display: grid;
+    grid-template-columns: auto;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 20px;
+  }
+
+  .txt{
+    text-align: justify;
+    font-family: stardewFont;
+    font-size: 1.9rem;
+    text-align: center;
+    color: #f7b327;
+    margin: 28px 0;
+  }
+
+  
+  .dv2{
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+  }
+}

@@ -19,12 +19,16 @@
   width: 600px;
   height: auto;
   margin: 2rem;
+  border-radius: 15px; /* Bordas arredondadas */
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Sombra suave */
 }
 
 .img2 {
   width: 600px;
   height: auto;
   margin: 2rem;
+  border-radius: 15px; /* Bordas arredondadas */
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Sombra suave */
 }
 
 h2 {
